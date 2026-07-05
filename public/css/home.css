@@ -1,35 +1,39 @@
-.navbar_frame {
+.nawbar_frame {
     position: relative;
     width: 100%;
     height: 145px;
+    background-color: rgb(26, 26, 121);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #443297;
 }
-.navbar_frame .container {
-    padding: 20px 0 14px;
+
+.nawbar_frame .container {
+    padding: 20px 0 12px;
     position: relative;
     width: 1320px;
     height: auto;
+    /* background-color: brown; */
 }
-
-.navbar_frame .container .navbar_top {
+.nawbar_frame .container .nawbar_top {
     width: 100%;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    /* background-color: antiquewhite; */
 }
-.navbar_top .nov_search_frame {
+.nawbar_top .naw_search_frame {
     width: 651px;
     height: 50px;
-    display: flex;
-    flex-direction: row;
     border-radius: 6px;
     background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
 }
-.nov_search_frame .search_box {
+.naw_search_frame .search_box {
+    /* categories */
     padding: 10px 17px;
     display: flex;
     flex-direction: row;
@@ -46,9 +50,7 @@
     border: none;
     outline: none;
     color: rgba(4, 30, 66, 1);
-
     font-family: "Jost";
-    font-style: Regular;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -56,41 +58,41 @@
 }
 .search_box input {
     /* Search products… */
-    margin-left: 12px;
+    padding-left: 12px;
+    border: none;
+    outline: none;
     width: 387px;
     height: 22px;
     color: rgba(98, 105, 116, 1);
-    border: none;
-    outline: none;
 
     font-family: "Jost";
-    font-style: Regular;
+
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0%;
-    text-align: left;
 }
-.nov_search_frame .search_icon_box {
-    width: 50px;
+.naw_search_frame .search_icon_box {
+    /* Rectangle 4 */
+    width: 49px;
     height: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 6px;
+    border-radius: 0px 6px 6px 0px;
     background-color: rgba(245, 195, 75, 1);
 }
-
-.navbar_top .nav_top_menu {
+.nawbar_top .naw_top_menu {
+    /* right-box */
+    width: 416px;
+    height: 50px;
+    /* background-color: brown; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 416px;
-    height: 50px;
-
-    /* background-color: brown; */
 }
-.nav_top_menu .top_menu_box {
+.naw_top_menu .top_menu_box {
     display: flex;
     flex-direction: row;
 }
@@ -98,54 +100,43 @@
     position: relative;
     width: 54px;
     height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 6px;
-}
-.box_icon_box img {
-    width: 22px;
-    height: 22px;
-}
-.top_menu_box .box_info_box {
-    margin-left: 16px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.box_info_box span {
-    color: rgba(255, 255, 255, 1);
-
-    font-family: "Jost";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.box_info_box strong {
-    color: rgba(255, 255, 255, 1);
-
-    font-family: "Jost";
-    font-style: Bold;
-    font-size: 14px;
-    font-weight: 500px;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.box_icon_box .basket_count {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    width: 15px;
-    height: 15px;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgba(245, 195, 75, 1);
+}
+.box_icon_box img {
+    width: 25px;
+    height: 25px;
+}
+.top_menu_box .box_info_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 16px;
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.box_icon_box .basket_count {
+    /* number */
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
+    color: rgba(11, 30, 64, 1);
+    background: rgba(245, 195, 75, 1);
     color: rgba(11, 30, 64, 1);
 
     font-family: "Jost";
@@ -154,31 +145,30 @@
     font-weight: 700;
     line-height: 10px;
     letter-spacing: 0%;
-    text-align: left;
 }
-.navbar_frame .container .navbar_bott {
-    border-top: 1px solid #5747a2;
+.nawbar_frame .container .nawbar_bot {
     margin-top: 20px;
+    border-top: 1px solid #6557a2;
 }
-.navbar_bott .navbar_bott_menu_box {
+.nawbar_bot .nawbar_bot_menu_box {
     margin-top: 10px;
     height: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.navbar_bott .browse_box {
+.nawbar_bot .browse_box {
     width: 185px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-right: 1px solid #5747a2;
+    border-right: 1px solid rgba(255, 255, 255, 1);
 }
-.browse_box img {
+.nawbar_bot_menu_box img {
     width: 20px;
     height: 18px;
 }
-.browse_box span {
+.nawbar_bot_menu_box span {
     margin-left: 10px;
     color: rgba(255, 255, 255, 1);
 
@@ -190,28 +180,19 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.navbar_bott_menu_box .navbar_route_menu {
+.nawbar_bot_menu_box .nawbar_route_menu {
     width: 670px;
     display: flex;
     flex-direction: row;
 }
-.navbar_route_menu a {
+.nawbar_route_menu a {
     margin-right: 10px;
-    font-family: "Jost";
-    font-style: Medium;
-    font-size: 16px;
-    font-weight: 500;
     color: aliceblue;
-}
-.navbar_route_menu a.titel {
-    color: #f5c34b;
-}
-.sorting_menu span {
-    margin-left: 10px;
-    color: rgba(255, 255, 255, 1);
-
     font-family: "Jost";
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
+}
+.nawbar_route_menu a.titel {
+    color: rgb(227, 201, 72);
 }
