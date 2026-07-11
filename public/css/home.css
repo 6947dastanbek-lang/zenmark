@@ -708,6 +708,8 @@
     width: 25px;
 }
 .theatre_frame .Theatre_box .next_prev_box2 img {
+    margin-left: 10px;
+    margin-right: 5px;
     position: absolute;
     top: 50%;
     cursor: pointer;
