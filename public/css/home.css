@@ -818,11 +818,12 @@
 .blue_frame .container {
     position: relative;
     flex-direction: row;
-    justify-content: flex-start;
+
+    align-items: center;
 }
 .blue_frame .container .left_blue_box {
     position: relative;
-    width: 329px;
+    width: 280px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -893,8 +894,9 @@
     line-height: 22px;
 }
 .blue_frame .container .right_blue_box {
+    margin-left: 20px;
     position: relative;
-    width: 949px;
+    width: 900px;
     height: 510px;
     display: flex;
     flex-direction: row;
