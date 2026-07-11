@@ -638,3 +638,369 @@
     right: 5%;
     bottom: 10%;
 }
+
+/* Theatre_frame */
+.Home_page .theatre_frame {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.theatre_frame .container {
+    flex-direction: column;
+}
+.theatre_frame .shop_frame_box3 {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.theatre_frame .shop_frame_box3 .left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.theatre_frame .shop_frame_box3 span {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.theatre_frame .shop_frame_box3 a {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.theatre_frame .shop_frame_box3 a:hover {
+    border-bottom: 2px solid rgba(4, 30, 66, 1);
+}
+
+.theatre_frame .container .Home_Theatre_box {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.theatre_frame .Home_Theatre_box .Theatre_box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.theatre_frame .Home_Theatre_box .Theatre_box .next_prev_box2 {
+    width: 25px;
+}
+.theatre_frame .Theatre_box .next_prev_box2 img {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.theatre_frame .Theatre_box .theatre_sale {
+    position: relative;
+    width: 260px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.theatre_frame .theatre_sale:hover {
+    border: 1px solid blue;
+}
+.theatre_frame .theatre_sale .theatre_sale_text {
+    margin-top: 6px;
+    width: 214px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.theatre_frame .theatre_sale_text span {
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.theatre_frame .theatre_sale_text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 5px;
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.theatre_frame .theatre_sale_text .theatre_sale_text_star img {
+    margin-left: 3px;
+}
+
+.theatre_frame .theatre_sale_text .theatre_sale_text_star .san {
+    margin-left: 5px;
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    text-transform: lowercase;
+}
+
+.theatre_frame .theatre_sale_text_star .sale_sale {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.theatre_frame .theatre_sale_text_star .sale_sale strong {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.theatre_frame .theatre_sale_text_star .sale_sale span {
+    margin-left: 10px;
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: line-through;
+}
+/* Blue frame */
+
+.Home_page .blue_frame {
+    position: relative;
+    background: url(/public/images/image\ 82.png);
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    background: rgba(68, 50, 151, 1);
+    width: 100%;
+    height: 510px;
+    margin-top: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.blue_frame .container {
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.blue_frame .container .left_blue_box {
+    position: relative;
+    width: 329px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+.left_blue_box span {
+    color: rgb(255, 255, 255);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 27px;
+    font-weight: 650;
+    line-height: 20px;
+}
+.left_blue_box .date_in_box {
+    position: relative;
+    width: 329px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.date_in_box .date_in_in_box {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.date_in_in_box .date_in_box_top span {
+    color: rgb(255, 255, 255);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.date_in_in_box .date_in_box_bottom p {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.blue_frame .left_button {
+    margin-top: 30px;
+    border: 1px solid none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 52px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+.blue_frame .left_button a {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.blue_frame .container .right_blue_box {
+    position: relative;
+    width: 949px;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_blue_box .right_blue_box_img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+/* qarap shiq */
+.right_blue_box_img .next_prev_box2 {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 25px;
+}
+.right_blue_box_img .next_prev_box2 img {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.blue_frame .right_blue_box_img .theatre_sale {
+    margin-left: 10px;
+    position: relative;
+    width: 206px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.blue_frame .theatre_sale:hover {
+    border: 2px solid rgb(8, 7, 7);
+}
+.blue_frame .theatre_sale .theatre_sale_text {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 206px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blue_frame .theatre_sale_text span {
+    color: rgb(1, 8, 18);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.blue_frame .theatre_sale_text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 5px;
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.blue_frame .theatre_sale_text .theatre_sale_text_star img {
+    margin-left: 3px;
+}
+
+.blue_frame .theatre_sale_text .theatre_sale_text_star .san {
+    margin-left: 5px;
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 11px;
+    font-weight: 150;
+    line-height: 18px;
+    text-transform: lowercase;
+}
+
+.blue_frame .theatre_sale_text_star .sale_sale {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blue_frame .theatre_sale_text_star .sale_sale strong {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.blue_frame .theatre_sale_text_star .sale_sale span {
+    margin-left: 10px;
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 10px;
+    font-weight: 250;
+    line-height: 18px;
+    text-decoration-line: line-through;
+}
