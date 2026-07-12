@@ -42,6 +42,12 @@
     height: 4px;
     background: black;
 }
+
+.Home_page swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
 /* HEADER */
 .header_frame {
     position: relative;
@@ -472,6 +478,31 @@
     line-height: 22px;
     text-decoration-line: line-through;
 }
+
+.selling_product_frame swiper-container {
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.selling_product_frame swiper-container::part(button-prev) {
+    width: 20px;
+    height: 20px;
+    left: -5px;
+}
+
+.selling_product_frame swiper-container::part(button-next) {
+    width: 20px;
+    height: 20px;
+    right: 0;
+}
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+    color: #00050b;
+}
+
+/* ADV_frame */
 .Home_page .adv_frame {
     margin-top: 90px;
     width: 100%;
@@ -487,6 +518,7 @@
     line-height: 26px;
     background: rgba(229, 237, 255, 1);
 }
+
 /* spec_product_frame */
 .Home_page .spec_product_frame {
     width: 100%;
@@ -800,6 +832,29 @@
     line-height: 22px;
     text-decoration-line: line-through;
 }
+
+.theatre_frame swiper-container {
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+swiper-container::part(button-prev) {
+    width: 20px;
+    height: 20px;
+    left: -5px;
+}
+
+swiper-container::part(button-next) {
+    width: 20px;
+    height: 20px;
+    right: 20px;
+}
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+    color: #00050b;
+}
 /* Blue frame */
 
 .Home_page .blue_frame {
@@ -831,7 +886,7 @@
     align-items: flex-start;
     margin-left: 15px;
 }
-.left_blue_box span {
+.blue_frame .left_blue_box span {
     color: rgb(255, 255, 255);
     font-family: "Jost";
     font-style: Medium;
@@ -839,7 +894,7 @@
     font-weight: 650;
     line-height: 20px;
 }
-.left_blue_box .date_in_box {
+.blue_frame .left_blue_box .date_in_box {
     position: relative;
     width: 329px;
     height: 80px;
@@ -850,14 +905,14 @@
     box-sizing: border-box;
 }
 
-.date_in_box .date_in_in_box {
+.blue_frame .date_in_box .date_in_in_box {
     margin-top: 40px;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
 }
-.date_in_in_box .date_in_box_top span {
+.blue_frame .date_in_in_box .date_in_box_top span {
     color: rgb(255, 255, 255);
     font-family: "Jost";
     font-style: Medium;
@@ -865,7 +920,7 @@
     font-weight: 500;
     line-height: 20px;
 }
-.date_in_in_box .date_in_box_bottom p {
+.blue_frame .date_in_in_box .date_in_box_bottom p {
     color: rgba(255, 255, 255, 1);
     font-family: "Jost";
     font-style: Medium;
@@ -873,7 +928,7 @@
     font-weight: 500;
     line-height: 28px;
 }
-.blue_frame .left_button {
+.blue_frame .blue_frame .left_button {
     margin-top: 30px;
     border: 1px solid none;
     display: flex;
@@ -903,7 +958,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.right_blue_box .right_blue_box_img {
+.blue_frame .right_blue_box .right_blue_box_img {
     position: relative;
     width: 100%;
     height: auto;
@@ -911,12 +966,12 @@
     flex-direction: row;
 }
 /* qarap shiq */
-.right_blue_box_img .next_prev_box2 {
+.blue_frame .right_blue_box_img .next_prev_box2 {
     margin-right: 30px;
     margin-left: 30px;
     width: 25px;
 }
-.right_blue_box_img .next_prev_box2 img {
+.blue_frame .right_blue_box_img .next_prev_box2 img {
     position: absolute;
     top: 50%;
     cursor: pointer;

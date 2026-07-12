@@ -12,6 +12,7 @@
         />
         <link rel="stylesheet" href="./public/css/command.css" />
         <link rel="stylesheet" href="./public/css/home.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-element-bundle.min.js"></script>
     </head>
     <body>
         <div class="navbar_frame">
@@ -253,11 +254,14 @@
             <div class="selling_product_frame">
                 <div class="container">
                     <div class="product_wrapper">
-                        <div class="next_prev_box">
-                            <img src="./public/images/Vector (2).png" alt="" />
-                        </div>
                         <div class="product_boxes">
-                            <div class="product_box">
+                            <swiper-container
+                    class="mySwiper"
+                    slides-per-view="4"
+                    space-between="30"
+                    navigation="true"
+                >
+                            <swiper-slide><div class="product_box">
                                 <a href=""
                                     ><div
                                         class="product_imag_box"
@@ -307,8 +311,8 @@
                                         <span>$145</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product_box">
+                            </div></swiper-slide>
+                            <swiper-slide><div class="product_box">
                                 <a href=""
                                     ><div
                                         class="product_imag_box"
@@ -358,8 +362,8 @@
                                         <span>$350</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product_box">
+                            </div></swiper-slide>
+                            <swiper-slide><div class="product_box">
                                 <a href=""
                                     ><div
                                         class="product_imag_box"
@@ -409,8 +413,8 @@
                                         <span>$55</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product_box">
+                            </div></swiper-slide>
+                            <swiper-slide><div class="product_box">
                                 <a href=""
                                     ><div
                                         class="product_imag_box"
@@ -460,14 +464,111 @@
                                         <span>$90</span>
                                     </div>
                                 </div>
-                            </div>
+                            </div></swiper-slide>
+                            <swiper-slide><div class="product_box">
+                                <a href=""
+                                    ><div
+                                        class="product_imag_box"
+                                        style="
+                                            background: url(./public/images/watch.png);
+                                            background-size: cover;
+                                        "
+                                    >
+                                        <div class="hover_box">
+                                            <button>Add to Card</button>
+                                        </div>
+                                    </div></a
+                                >
+                                <div class="product_content_box">
+                                    <span class="product_title">Samsung</span>
+                                    <a href=""
+                                        ><p class="product_desc">
+                                            Apple Watch SE (GPS) 40mm Space Grey
+                                            Aluminum Case with
+                                        </p></a
+                                    >
+                                    <div class="review_box">
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <span>3,014 reviews</span>
+                                    </div>
+                                    <div class="price_box">
+                                        <strong>$105</strong>
+                                        <span>$145</span>
+                                    </div>
+                                </div>
+                            </div></swiper-slide>
+                            <swiper-slide><div class="product_box">
+                                <a href=""
+                                    ><div
+                                        class="product_imag_box"
+                                        style="
+                                            background: url(./public/images/watch.png);
+                                            background-size: cover;
+                                        "
+                                    >
+                                        <div class="hover_box">
+                                            <button>Add to Card</button>
+                                        </div>
+                                    </div></a
+                                >
+                                <div class="product_content_box">
+                                    <span class="product_title">Samsung</span>
+                                    <a href=""
+                                        ><p class="product_desc">
+                                            Apple Watch SE (GPS) 40mm Space Grey
+                                            Aluminum Case with
+                                        </p></a
+                                    >
+                                    <div class="review_box">
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="./public/images/juldiz.svg"
+                                            alt=""
+                                        />
+                                        <span>3,014 reviews</span>
+                                    </div>
+                                    <div class="price_box">
+                                        <strong>$105</strong>
+                                        <span>$145</span>
+                                    </div>
+                                </div>
+                            </div></swiper-slide>
                         </div>
-                        <div
-                            class="next_prev_box"
-                            style="transform: scaleX(-1)"
-                        >
-                            <img src="./public/images/Vector (2).png" alt="" />
-                        </div>
+
                     </div>
                     <div class="pagionation_box">
                         <div class="pagionation_main">
@@ -577,239 +678,305 @@
                     </div>
                     <div class="Home_Theatre_box">
                         <div class="Theatre_box">
-                            <div class="next_prev_box2">
-                                <img
-                                    src="./public/images/Vector (2).png"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="theatre_sale">
-                                <div class="theatre_sale_img">
-                                    <img
-                                        src="./public/images/images/products/LG-UHD.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="theatre_sale_text">
-                                    <span>LG</span>
-                                    <a href=""
-                                        ><p>
-                                            LG 65" 4K UHD HDR LED webOS Smart TV
-                                        </p></a
-                                    >
+                            <swiper-container
+                                class="mySwiper"
+                                slides-per-view="4"
+                                space-between="30"
+                                navigation="true"
+                            >
+                                <swiper-slide>
+                                    <div class="theatre_sale">
+                                        <div class="theatre_sale_img">
+                                            <img
+                                                src="./public/images/images/products/LG-UHD.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="theatre_sale_text">
+                                            <span>LG</span>
+                                            <a href=""
+                                                ><p>
+                                                    LG 65" 4K UHD HDR LED webOS
+                                                    Smart TV
+                                                </p></a
+                                            >
 
-                                    <div class="theatre_sale_text_star">
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <span class="san">3,014 reviews</span>
-                                        <div class="sale_sale">
-                                            <strong>$75</strong>
-                                            <span>$90</span>
+                                            <div class="theatre_sale_text_star">
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <span class="san"
+                                                    >3,014 reviews</span
+                                                >
+                                                <div class="sale_sale">
+                                                    <strong>$75</strong>
+                                                    <span>$90</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="theatre_sale">
-                                <div class="theatre_sale_img">
-                                    <img
-                                        src="./public/images/images/products/SONY-TV.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="theatre_sale_text">
-                                    <span>SONY</span>
-                                    <a href=""
-                                        ><p>
-                                            Sony X85J 65" 4K UHD HDR LED Smart
-                                            Google TV (KD65X85J)
-                                        </p></a
-                                    >
-                                    <div class="theatre_sale_text_star">
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <span class="san">3,014 reviews</span>
-                                        <div class="sale_sale">
-                                            <strong>$75</strong>
-                                            <span>$90</span>
+                                    </div></swiper-slide
+                                >
+                                <swiper-slide>
+                                    <div class="theatre_sale">
+                                        <div class="theatre_sale_img">
+                                            <img
+                                                src="./public/images/images/products/LG-UHD.png"
+                                                alt=""
+                                            />
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="theatre_sale">
-                                <div class="theatre_sale_img">
-                                    <img
-                                        src="./public/images/images/products/LG-OLED.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="theatre_sale_text">
-                                    <span>LG</span>
-                                    <a href=""
-                                        ><p>
-                                            LG 55" 4K UHD HDR OLED webOS Smart
-                                            TV
-                                        </p></a
-                                    >
-                                    <div class="theatre_sale_text_star">
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <span class="san">3,014 reviews</span>
-                                        <div class="sale_sale">
-                                            <strong>$75</strong>
-                                            <span>$90</span>
+                                        <div class="theatre_sale_text">
+                                            <span>LG</span>
+                                            <a href=""
+                                                ><p>
+                                                    LG 65" 4K UHD HDR LED webOS
+                                                    Smart TV
+                                                </p></a
+                                            >
+
+                                            <div class="theatre_sale_text_star">
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <span class="san"
+                                                    >3,014 reviews</span
+                                                >
+                                                <div class="sale_sale">
+                                                    <strong>$75</strong>
+                                                    <span>$90</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="theatre_sale">
-                                <div class="theatre_sale_img">
-                                    <img
-                                        src="./public/images/images/products/tcl.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="theatre_sale_text">
-                                    <span>TLC</span>
-                                    <a href=""
-                                        ><p>
-                                            TCL 3-Series 40" 1080p HD LED
-                                            Android Smart TV (40S334-CA)
-                                        </p></a
-                                    >
-                                    <div class="theatre_sale_text_star">
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <span class="san">3,014 reviews</span>
-                                        <div class="sale_sale">
-                                            <strong>$75</strong>
-                                            <span>$90</span>
+                                    </div></swiper-slide
+                                >
+                                <swiper-slide
+                                    ><div class="theatre_sale">
+                                        <div class="theatre_sale_img">
+                                            <img
+                                                src="./public/images/images/products/SONY-TV.png"
+                                                alt=""
+                                            />
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="theatre_sale">
-                                <div class="theatre_sale_img">
-                                    <img
-                                        src="./public/images/images/products/samsung_tv.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="theatre_sale_text">
-                                    <span>SAMSUNG</span>
-                                    <a href=""
-                                        ><p>
-                                            Samsung 58" 4K UHD HDR LED Tizen
-                                            Smart TV
-                                        </p></a
-                                    >
-                                    <div class="theatre_sale_text_star">
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./public/images/juldiz.svg"
-                                            alt=""
-                                        />
-                                        <span class="san">3,014 reviews</span>
-                                        <div class="sale_sale">
-                                            <strong>$75</strong>
-                                            <span>$90</span>
+                                        <div class="theatre_sale_text">
+                                            <span>SONY</span>
+                                            <a href=""
+                                                ><p>
+                                                    Sony X85J 65" 4K UHD HDR LED
+                                                    Smart Google TV (KD65X85J)
+                                                </p></a
+                                            >
+                                            <div class="theatre_sale_text_star">
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <span class="san"
+                                                    >3,014 reviews</span
+                                                >
+                                                <div class="sale_sale">
+                                                    <strong>$75</strong>
+                                                    <span>$90</span>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="next_prev_box2">
-                                <img
-                                    src="./public/images/Vector (2).png"
-                                    style="transform: scaleX(-1)"
-                                    alt=""
-                                />
-                            </div>
+                                    </div></swiper-slide
+                                >
+                                <swiper-slide
+                                    ><div class="theatre_sale">
+                                        <div class="theatre_sale_img">
+                                            <img
+                                                src="./public/images/images/products/LG-OLED.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="theatre_sale_text">
+                                            <span>LG</span>
+                                            <a href=""
+                                                ><p>
+                                                    LG 55" 4K UHD HDR OLED webOS
+                                                    Smart TV
+                                                </p></a
+                                            >
+                                            <div class="theatre_sale_text_star">
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <span class="san"
+                                                    >3,014 reviews</span
+                                                >
+                                                <div class="sale_sale">
+                                                    <strong>$75</strong>
+                                                    <span>$90</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></swiper-slide
+                                >
+
+                                <swiper-slide
+                                    ><div class="theatre_sale">
+                                        <div class="theatre_sale_img">
+                                            <img
+                                                src="./public/images/images/products/tcl.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="theatre_sale_text">
+                                            <span>TLC</span>
+                                            <a href=""
+                                                ><p>
+                                                    TCL 3-Series 40" 1080p HD
+                                                    LED Android Smart TV
+                                                    (40S334-CA)
+                                                </p></a
+                                            >
+                                            <div class="theatre_sale_text_star">
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <span class="san"
+                                                    >3,014 reviews</span
+                                                >
+                                                <div class="sale_sale">
+                                                    <strong>$75</strong>
+                                                    <span>$90</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></swiper-slide
+                                >
+                                <swiper-slide
+                                    ><div class="theatre_sale">
+                                        <div class="theatre_sale_img">
+                                            <img
+                                                src="./public/images/images/products/samsung_tv.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="theatre_sale_text">
+                                            <span>SAMSUNG</span>
+                                            <a href=""
+                                                ><p>
+                                                    Samsung 58" 4K UHD HDR LED
+                                                    Tizen Smart TV
+                                                </p></a
+                                            >
+                                            <div class="theatre_sale_text_star">
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <img
+                                                    src="./public/images/juldiz.svg"
+                                                    alt=""
+                                                />
+                                                <span class="san"
+                                                    >3,014 reviews</span
+                                                >
+                                                <div class="sale_sale">
+                                                    <strong>$75</strong>
+                                                    <span>$90</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></swiper-slide
+                                ></swiper-container
+                            >
                         </div>
                     </div>
                     <div class="pagionation_box">
