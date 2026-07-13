@@ -573,7 +573,7 @@ swiper-container::part(button-next) {
     padding: 30px;
     position: relative;
     width: 664px;
-    height: 368px;
+    height: 355px;
     display: flex;
     flex-direction: row;
     border-radius: 6px;
@@ -878,8 +878,8 @@ swiper-container::part(button-next) {
 }
 .blue_frame .container .left_blue_box {
     position: relative;
-    width: 280px;
-    height: auto;
+    width: 304.19px;
+    height: auto
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -887,12 +887,13 @@ swiper-container::part(button-next) {
     margin-left: 15px;
 }
 .blue_frame .left_blue_box span {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     font-family: "Jost";
     font-style: Medium;
-    font-size: 27px;
-    font-weight: 650;
-    line-height: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
 }
 .blue_frame .left_blue_box .date_in_box {
     position: relative;
@@ -928,7 +929,7 @@ swiper-container::part(button-next) {
     font-weight: 500;
     line-height: 28px;
 }
-.blue_frame .blue_frame .left_button {
+.blue_frame .left_button {
     margin-top: 30px;
     border: 1px solid none;
     display: flex;
