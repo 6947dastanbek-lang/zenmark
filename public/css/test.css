@@ -11,6 +11,8 @@ p {
 }
 
 .swpe_frame {
+    margin-top: 20px;
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
@@ -129,3 +131,28 @@ swiper-container::part(button-next) {
     color: #00050b;
     size: 3px;
 }
+/* kkk */
+.kkk {
+    position: relative;
+    margin-top: 600px;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.kkk .container2 {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+}
+/* navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+              mousewheel: true,
+              keyboard: true, */
