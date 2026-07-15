@@ -84,7 +84,7 @@
     background-color: rgba(245, 195, 75, 1);
     border-radius: 6px;
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 13px;
     font-weight: 500;
@@ -95,7 +95,7 @@
     width: 428px;
     height: 152px;
     color: rgba(255, 255, 255, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: normal;
     font-size: 60px;
     font-weight: 500;
@@ -104,7 +104,7 @@
 .header_frame .header_content p {
     margin-top: 10px;
     color: rgba(255, 255, 255, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 13px;
     font-weight: 500;
@@ -121,7 +121,7 @@
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -155,7 +155,7 @@
 }
 .box_left span {
     color: rgba(0, 83, 246, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -163,7 +163,7 @@
 }
 .header_frame .box_left p {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 26px;
     font-weight: 500;
@@ -171,7 +171,7 @@
 }
 .header_frame .box_left a {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -216,7 +216,7 @@
 }
 .service_frame .service_content span {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
@@ -225,7 +225,7 @@
 }
 .service_frame .service_content p {
     color: rgba(98, 105, 116, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 15px;
     font-weight: 400;
@@ -253,7 +253,7 @@
 }
 .shop_frame .shop_frame_box span {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 28px;
     font-weight: 500;
@@ -261,7 +261,7 @@
 }
 .shop_frame .shop_frame_box a {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -298,7 +298,7 @@
     padding-top: 20px;
     display: flex;
     justify-content: center;
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -316,7 +316,7 @@
 }
 .shop_frame .shop_frame_box2 span {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 28px;
     font-weight: 500;
@@ -324,7 +324,7 @@
 }
 .shop_frame .shop_frame_box2 a {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -336,7 +336,7 @@
 /*selling_product */
 .selling_product_frame {
     position: relative;
-    margin: top 50px;
+    margin-top: 50px;
     width: 100%;
     height: auto;
     display: flex;
@@ -354,7 +354,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 .selling_product_frame .product_wrapper .next_prev_box {
     width: 25px;
@@ -366,7 +366,7 @@
 }
 .selling_product_frame .product_wrapper .product_boxes {
     position: relative;
-    width: 1222px;
+    width: 1350px;
     height: 452px;
     display: flex;
     flex-direction: row;
@@ -401,7 +401,7 @@
     box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
     background: rgba(0, 83, 246, 1);
     color: rgba(255, 255, 255, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -417,7 +417,7 @@
 }
 .selling_product_frame .product_content_box .product_title {
     color: rgba(98, 105, 116, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 13px;
     font-weight: 400;
@@ -429,7 +429,7 @@
     width: 256px;
     height: 56px;
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
@@ -447,7 +447,7 @@
 .selling_product_frame .review_box span {
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 14px;
     font-weight: 400;
@@ -461,7 +461,7 @@
 }
 .selling_product_frame .price_box strong {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 18px;
     font-weight: 500;
@@ -470,8 +470,7 @@
 .selling_product_frame .price_box span {
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
-
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 14px;
     font-weight: 400;
@@ -483,6 +482,11 @@
     padding-left: 5px;
     width: 100%;
     height: 100%;
+}
+.swiper-container swiper-slide {
+    width: 310px;
+    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .selling_product_frame swiper-container::part(button-prev) {
@@ -511,7 +515,7 @@ swiper-container::part(button-next) {
     justify-content: center;
     align-items: center;
     color: rgba(0, 83, 246, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 18px;
     font-weight: 500;
@@ -543,7 +547,7 @@ swiper-container::part(button-next) {
 
 .shop_frame_box2 span {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 28px;
     font-weight: 500;
@@ -551,7 +555,7 @@ swiper-container::part(button-next) {
 }
 .shop_frame_box2 a {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -588,7 +592,7 @@ swiper-container::part(button-next) {
 }
 .big_product_content span {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 15px;
     font-weight: 400;
@@ -597,7 +601,7 @@ swiper-container::part(button-next) {
 .big_product_content p {
     margin: 7px 0;
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 26px;
     font-weight: 500;
@@ -605,7 +609,7 @@ swiper-container::part(button-next) {
 }
 .big_product_content a {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -651,7 +655,7 @@ swiper-container::part(button-next) {
 }
 .small_product_content strong {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -659,7 +663,7 @@ swiper-container::part(button-next) {
 }
 .small_product_content span {
     color: rgba(98, 105, 116, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: normal;
     font-size: 13px;
     font-weight: 400;
@@ -682,6 +686,8 @@ swiper-container::part(button-next) {
 }
 .theatre_frame .container {
     flex-direction: column;
+    justify-content: space-between;
+    width: 1350px;
 }
 .theatre_frame .shop_frame_box3 {
     position: relative;
@@ -702,7 +708,7 @@ swiper-container::part(button-next) {
 
 .theatre_frame .shop_frame_box3 span {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 28px;
     font-weight: 500;
@@ -710,7 +716,7 @@ swiper-container::part(button-next) {
 }
 .theatre_frame .shop_frame_box3 a {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -726,6 +732,7 @@ swiper-container::part(button-next) {
     height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .theatre_frame .Home_Theatre_box .Theatre_box {
     position: relative;
@@ -748,11 +755,10 @@ swiper-container::part(button-next) {
 }
 .theatre_frame .Theatre_box .theatre_sale {
     position: relative;
-    width: 260px;
+    width: 230px;
     height: 400px;
     display: flex;
     flex-direction: column;
-
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
@@ -773,7 +779,7 @@ swiper-container::part(button-next) {
 .theatre_frame .theatre_sale_text span {
     color: rgba(98, 105, 116, 1);
 
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 13px;
     font-weight: 400;
@@ -787,7 +793,7 @@ swiper-container::part(button-next) {
     overflow: hidden;
     margin-top: 5px;
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
@@ -800,7 +806,7 @@ swiper-container::part(button-next) {
 .theatre_frame .theatre_sale_text .theatre_sale_text_star .san {
     margin-left: 5px;
     color: rgba(98, 105, 116, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 14px;
     font-weight: 200;
@@ -816,7 +822,7 @@ swiper-container::part(button-next) {
 }
 .theatre_frame .theatre_sale_text_star .sale_sale strong {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 18px;
     font-weight: 500;
@@ -825,7 +831,7 @@ swiper-container::part(button-next) {
 .theatre_frame .theatre_sale_text_star .sale_sale span {
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 14px;
     font-weight: 400;
@@ -879,7 +885,7 @@ swiper-container::part(button-next) {
 .blue_frame .container .left_blue_box {
     position: relative;
     width: 304.19px;
-    height: auto
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -888,12 +894,11 @@ swiper-container::part(button-next) {
 }
 .blue_frame .left_blue_box span {
     color: rgba(255, 255, 255, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
-
 }
 .blue_frame .left_blue_box .date_in_box {
     position: relative;
@@ -915,7 +920,7 @@ swiper-container::part(button-next) {
 }
 .blue_frame .date_in_in_box .date_in_box_top span {
     color: rgb(255, 255, 255);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 22px;
     font-weight: 500;
@@ -923,7 +928,7 @@ swiper-container::part(button-next) {
 }
 .blue_frame .date_in_in_box .date_in_box_bottom p {
     color: rgba(255, 255, 255, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
@@ -943,7 +948,7 @@ swiper-container::part(button-next) {
 }
 .blue_frame .left_button a {
     color: rgba(4, 30, 66, 1);
-     font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -1005,7 +1010,7 @@ swiper-container::part(button-next) {
 .blue_frame .theatre_sale_text span {
     color: rgb(1, 8, 18);
 
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 11px;
     font-weight: 300;
@@ -1019,7 +1024,7 @@ swiper-container::part(button-next) {
     overflow: hidden;
     margin-top: 5px;
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 15px;
     font-weight: 500;
@@ -1032,7 +1037,7 @@ swiper-container::part(button-next) {
 .blue_frame .theatre_sale_text .theatre_sale_text_star .san {
     margin-left: 5px;
     color: rgba(98, 105, 116, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 11px;
     font-weight: 150;
@@ -1048,7 +1053,7 @@ swiper-container::part(button-next) {
 }
 .blue_frame .theatre_sale_text_star .sale_sale strong {
     color: rgba(4, 30, 66, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Medium;
     font-size: 16px;
     font-weight: 500;
@@ -1057,7 +1062,7 @@ swiper-container::part(button-next) {
 .blue_frame .theatre_sale_text_star .sale_sale span {
     margin-left: 10px;
     color: rgba(98, 105, 116, 1);
-    font-family:var(--font);
+    font-family: var(--font);
     font-style: Regular;
     font-size: 10px;
     font-weight: 250;
