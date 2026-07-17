@@ -81,9 +81,8 @@
 .container .deals_top {
     margin-top: 16px;
     position: relative;
-
     width: 100%;
-    height: auto;
+    height: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -243,6 +242,25 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
+}
+.blue_boxes .only_blue {
+    margin-left: 10px;
+    position: relative;
+    width: 100px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 6px;
+    color: rgb(218, 224, 233);
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    background-color: rgba(68, 50, 151, 1);
 }
 .blue_boxes a:hover {
     background-color: rgba(68, 50, 151, 1);
@@ -570,7 +588,7 @@
     align-items: center;
     background-color: rgba(245, 195, 75, 1);
 }
-.pagionation_dot1 .dot3 {
+.pagionation_dot1 .dot {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -578,5 +596,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.pagionation_dot1 .dot:hover {
     background-color: rgba(243, 245, 246, 1);
+    cursor: pointer;
+}
+
+.pagionation_dot1 .dot2:hover {
+    background-color: rgba(243, 245, 246, 1);
+    cursor: pointer;
 }
